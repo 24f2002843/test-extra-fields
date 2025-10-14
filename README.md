@@ -8,7 +8,7 @@ This is a simple static single page application designed to demonstrate basic we
 - JavaScript functionality to enhance interactivity
 
 ## Testing Extra Fields
-In this round, we've focused on testing out extra fields to observe if they cause any errors in our application. We dynamically added extra fields to the DOM to ensure they integrate well without issues.
+In this round, we've focused on testing out extra fields to observe if they cause any errors in our application. We dynamically added extra fields to the DOM to ensure they integrate well without issues. We now have additional fields: Field 3 and Field 4.
 
 ## Getting Started
 To run the app, open the `index.html` file in a web browser.
