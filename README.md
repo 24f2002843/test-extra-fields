@@ -1,20 +1,23 @@
-# Extra Fields Error Test
+# Static Single-Page Web App
 
 ## Overview
-This static single-page web app is designed to test the behavior of a form when extra fields are present in the submission process. It checks whether any errors occur due to the additional fields.
+This is a minimal static single-page web application designed to demonstrate the usage of JavaScript for testing extra fields in round 2 requests.
 
-## Features
-- Basic form functionality with input validation.
-- Displays messages based on form submission.
+## Files Included
+- `index.html`: The main HTML file that sets up the webpage.
+- `main.js`: The JavaScript file that implements the app’s functionality.
+- `style.css`: The CSS file for styling the webpage.
+- `service-worker.js`: A service worker file for caching and offline functionality.
+- `LICENSE`: The file containing the legal licensing information.
 
-## Usage
-1. Open `index.html` in a web browser.
-2. Fill in the required input field and optionally the extra field.
-3. Click on Submit to see the result or any error messages.
+## How to Run
+1. Clone the repository.
+2. Open `index.html` in your web browser.
+3. Ensure you have a local server if necessary to support service workers.
 
-## Development
-- The app is built using HTML, CSS, and JavaScript.
-- To modify the functionality, edit `main.js`.
+## Updates
+### Round 2
+In this round, additional fields were tested within the requesting functionality of the application.
 
 ## License
 This project is licensed under the MIT License.
