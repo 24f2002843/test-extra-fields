@@ -1,23 +1,17 @@
-# Static Single-Page Web App
+# Static Single Page App
 
 ## Overview
-This is a minimal static single-page web application designed to demonstrate the usage of JavaScript for testing extra fields in round 2 requests.
+This is a simple static single page application designed to demonstrate basic web technologies.
 
-## Files Included
-- `index.html`: The main HTML file that sets up the webpage.
-- `main.js`: The JavaScript file that implements the app’s functionality.
-- `style.css`: The CSS file for styling the webpage.
-- `service-worker.js`: A service worker file for caching and offline functionality.
-- `LICENSE`: The file containing the legal licensing information.
+## Features
+- Simple UI
+- JavaScript functionality to enhance interactivity
 
-## How to Run
-1. Clone the repository.
-2. Open `index.html` in your web browser.
-3. Ensure you have a local server if necessary to support service workers.
+## Testing Extra Fields
+In this round, we've focused on testing out extra fields to observe if they cause any errors in our application.
 
-## Updates
-### Round 2
-In this round, additional fields were tested within the requesting functionality of the application.
+## Getting Started
+To run the app, open the `index.html` file in a web browser.
 
-## License
-This project is licensed under the MIT License.
+## Future Work
+Plans for future updates include enhancing interactivity and refining the UI.
