@@ -9,3 +9,9 @@ body {
 h1 {
     color: #444;
 }
+
+#extra-fields {
+    margin-top: 20px;
+    background-color: #e0e0e0;
+    padding: 10px;
+}
