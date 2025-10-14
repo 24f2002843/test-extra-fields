@@ -1,18 +1,17 @@
-document.getElementById('test-form').addEventListener('submit', function (event) {
-    event.preventDefault();
-    const inputField = document.getElementById('input-field').value;
-    const extraField = document.getElementById('extra-field').value;
-    let resultMessage;
+// main.js - Main JavaScript file for handling requests and extra fields test.
+console.log('App is running!');
 
-    try {
-        // Simulating processing input
-        if (inputField === '') {
-            throw new Error('Input Field is required.');
-        }
-        // Handling extra field without validation
-        resultMessage = 'Form submitted! Input: ' + inputField + ', Extra: ' + extraField;
-    } catch (error) {
-        resultMessage = 'Error: ' + error.message;
-    }
-    document.getElementById('result').innerText = resultMessage;
+function testExtraFields() {
+    // Function to test additional fields in requests
+    const extraFields = {
+        field1: 'value1',
+        field2: 'value2'
+    };
+
+    console.log('Testing extra fields:', extraFields);
+    // Make requests or handle logic here
+}
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    testExtraFields();
 });
